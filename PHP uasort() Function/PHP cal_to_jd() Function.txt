@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$d=cal_to_jd(CAL_GREGORIAN,6,20,2007);
+echo $d;
+?>
+
+</body>
+</html>
+
+
+
+
+
+
+2454272

@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$jd=frenchtojd(3,3,14);
+echo $jd . "<br>";
+echo jdtofrench($jd);
+?>
+
+</body>
+</html>
+
+
+
+
+2380650
+3/3/14

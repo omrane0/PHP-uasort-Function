@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$d=unixtojd(mktime(0,0,0,6,20,2007));
+print_r(cal_from_jd($d,CAL_GREGORIAN));
+?>
+
+</body>
+</html>
+
+
+
+
+Array ( [date] => 6/20/2007 [month] => 6 [day] => 20 [year] => 2007 [dow] => 3 [abbrevdayname] => Wed [dayname] => Wednesday [abbrevmonth] => Jun [monthname] => June )
